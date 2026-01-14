@@ -1,0 +1,15 @@
+# Introduction to Javascript
+
+Developer know html and CSS, why do we need javascript
+
+1: We can’t put C++ in the browser , it’s too heavy, unsafe, and inaccessible. Our users are not
+kernel developers; they’re web authors who just learned `<table>` and `<font>`. We need
+something lightweight, interpreted, forgiving, and safe.
+
+2: **Massive Security Nightmare:**
+
+- **Unrestricted Access:** C++ gives you low-level control over memory and system calls. If a browser ran arbitrary C++ code from a website, that code could easily:
+    - Read/write any file on your computer.
+    - Install malware.
+    - Access your webcam or microphone without permission.
+    - Crash your entire operating system.
