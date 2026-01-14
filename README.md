@@ -40,7 +40,7 @@ Contributions are welcome. Please:
 3. Open a pull request with a clear description of your changes
 
 ## License
-This repository does not include a license file. If you want to specify one, add a LICENSE file (for example, MIT).
+
 
 ## Contact
 For questions or suggestions, open an issue or contact the repository owner: Kavya-Upadhyay
