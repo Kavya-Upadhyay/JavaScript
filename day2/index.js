@@ -125,33 +125,38 @@
 
 // Primitive data type is immutable
 
-let a = 10;
-let b = a;
-
-b = 20;
-console.log(a,b);
+// let a = 10;
+// let b = a;
+//
+// b = 20;
+// console.log(a,b);
 
 // let str = "Rohit";
 // str = "Mohan";
 
 // console.log(str);
+//
+//
+// // Non primitive data type mutable
+//
+// let arr = [10,20,30,40];
+//
+// arr.push(90);
+// arr[0] = 70;
+// console.log(arr);
+//
+// let obj ={
+//     name:"Mohan",
+//     age:20
+// }
+//
+// let obj2 = obj;
+//
+// obj2.name = "Rohan";
+//
+// console.log(obj);
 
-
-// Non primitive data type mutable
-
-let arr = [10,20,30,40];
-
-arr.push(90);
-arr[0] = 70;
-console.log(arr);
-
-let obj ={
-    name:"Mohan",
-    age:20
-}
-
-let obj2 = obj;
-
-obj2.name = "Rohan";
-
-console.log(obj);
+let a = "0.1";
+let b= "0.2";
+let c = (Number(a) + Number(b)).toFixed(1)
+console.log(c == 0.3); // "0.3"
