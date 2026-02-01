@@ -39,14 +39,15 @@
 
 
 
-let a = 10;
-const b = 20;
+// let a = 10;
+// const b = 20;
+//
+//
+// const result = addNumber(a,b);
+// console.log(result);
+//
+// const addNumber = function(num1,num2){
+//     const sum = num1+num2;
+//     return sum;
+// }
 
-
-const result = addNumber(a,b);
-console.log(result);
-
-const addNumber = function(num1,num2){
-    const sum = num1+num2;
-    return sum;
-}
