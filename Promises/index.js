@@ -1,33 +1,34 @@
-
 fetch("https://api.github.com/users")
     .then((res) => {
         return res.json();
     })
-    .then((data)=>{
+    .then((data) => {
 
-            const parent = document.getElementById("first");
-            for(let i = 0; i<data.length; i++) {
-                const image = document.createElement("img");
-                image.src = data[i].avatar_url;
-                image.style.height = "50%";
-                image.style.width = "50%";
-                image.style.padding = "2%"
-                parent.append(image);
-            }
+        const parent  = document.getElementById("first");
+        for(let i=0; i<data.length; i++){
+            const image = document.createElement("img");
+            image.src = data[i].avatar_url;
+            image.style.height = "80px";
+            image.style.width = "80px";
+            image.style.marginLeft = "10px";
+            image.style.borderRadius = "50%";
 
+            parent.append(image);
         }
-    )
+    })
 
 
-function placeOrder(orderDetail) {
-    console.log(`Processing the payment of ${orderDetail.cost}`);
 
-    setTimeout(() => {
-        console.log("Payment completed and Order is placed");
-        orderDetail.paymetStatus = true;  // ✅ Add new data
 
-    }, 3000);
-}
+// function placeOrder(orderDetail) {
+//     console.log(`Processing the payment of ${orderDetail.cost}`);
+//
+//     setTimeout(() => {
+//         console.log("Payment completed and Order is placed");
+//         orderDetail.paymetStatus = true;  // ✅ Add new data
+//
+//     }, 3000);
+// }
 
 //
 // function preparingOrder(orderDetail) {
